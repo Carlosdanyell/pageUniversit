@@ -1,0 +1,64 @@
+
+.headerPage{
+    display: flex;
+    width:100%;
+    height: 10rem;
+    background-color:#ffffff;
+    justify-content: center;   
+}
+img{
+    margin: auto;
+    width: auto;
+    height:100%;
+}
+.contentPage{
+    background-color: #e6e6e6;
+    width: 100%;
+    padding: 1em;
+    border-top: 5px solid #102e74;
+    border-bottom: 5px solid #102e74;
+    margin: auto;
+}
+h1{
+    margin: 1em;
+    padding: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #113587;
+    transition: 1s;
+}
+h1:hover{
+    transform: scale(1.1); 
+}
+.linkSites{
+
+    text-align: center;
+    width:50%;
+    margin: 1em auto;
+    padding: 1em;
+    font-size: 2em;
+    color: #eeeeee;
+    transition: 1s;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background:#113587;
+}
+.linkSites:hover{
+    transform: scale(1.05);
+    background:#102e74;
+}
+footer{
+
+    background-color: rgba(#fff,0.96);
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    font-size: 1em;  
+}
+@media only screen and (max-width: 600px) {
+    .linkSites{
+        width:70%;
+    }
+}
